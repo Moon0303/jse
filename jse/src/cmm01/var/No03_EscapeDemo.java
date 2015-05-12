@@ -2,12 +2,12 @@ package cmm01.var;
 
 /*
 Date : 2015.05.11
-Author : ¾ç¹®¼®
-Description : ÀÌ½ºÄÉÀÌÇÁ ¹®¹ý¿¡ ´ëÇÑ ÇÐ½À ÀÚ·á 
+Author : ï¿½ç¹®ï¿½ï¿½
+Description : ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð½ï¿½ ï¿½Ú·ï¿½ 
 * */
 
 
-public class EscapeDemo {
+public class No03_EscapeDemo {
 	public static void main(String[] args) {
 		
 		int kor = 90;
@@ -18,9 +18,9 @@ public class EscapeDemo {
 		sum = kor + eng;
 		
 		
-		System.out.println("\t¼ºÀûÃ³¸®");
+		System.out.println("\tï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½");
 		System.out.println("=================================");
-		System.out.println("±¹¾î + ¿µ¾î + ÃÑÁ¡ ");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½ï¿½ï¿½ ");
 		System.out.println(kor +" + "+ eng +" = "+ sum);
 		
 	}
