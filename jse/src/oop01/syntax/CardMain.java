@@ -1,5 +1,7 @@
 package oop01.syntax;
 
+import java.util.Random;
+
 public class CardMain {
 
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class CardMain {
 		
 		
 		System.out.print("당신");
-		CardVo yourCard = new CardVo(7,"herat");
+		CardVo yourCard = new CardVo(7,"heart");
 		
 		
 		
@@ -37,6 +39,14 @@ public class CardMain {
 							+"내카드의 " +숫자+ "는" +3 +"이므로"
 							+"당신이 이겻습니다.");
 		*/
+		
+		
+		if (myCard.number > yourCard.number){
+			System.out.println("내가이겻다");
+		}
+		else{
+		System.out.println("니가이겻다");
+		}
 		
 	}
 	
