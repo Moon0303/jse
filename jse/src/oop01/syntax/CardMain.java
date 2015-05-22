@@ -41,7 +41,7 @@ public class CardMain {
 		*/
 		
 		
-		if (myCard.number > yourCard.number){
+		if (myCard.number> yourCard.number){
 			System.out.println("내가이겻다");
 		}
 		else{

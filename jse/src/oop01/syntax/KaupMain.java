@@ -18,12 +18,14 @@ public class KaupMain {
 		
 			
 			KaupVo vo = new KaupVo(height,weight);
-			
-			vo.setHeight(height);
-			vo.setWeight(weight);
 			vo.setIdx(idx);
-			vo.getMsg();
 			
+			
+		/*	vo.setHeight(height);
+			vo.setWeight(weight);*/
+			
+		/*	vo.getMsg();
+			*/
 			
 			System.out.println(vo.toString());
 			System.out.println("완료");

@@ -88,7 +88,7 @@ public class KaupVo {
 	@Override
 	public String toString() {
 		return "카우프 지수 [height=" + height + ", weight=" + weight + ", idx="
-				+ idx + ", msg=" + msg + "]";
+				+ idx + ", msg=" + this.getMsg() + "]";
 	}
     
 	
